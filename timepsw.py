@@ -9,7 +9,7 @@ import pandas as pd
 
 # Function to generate a random keyword
 def generate_keyword():
-    length = random.randint(10, 20)
+    length = random.randint(10, 15)
     characters = string.ascii_letters + string.digits
     keyword = ''.join(random.choice(characters) for _ in range(length))
     return keyword
