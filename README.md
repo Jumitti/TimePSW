@@ -1,4 +1,4 @@
-# TimePSW 🔐
+# TimePSW 🔐 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://timepsw.streamlit.app/)
 
 TimePSW is an engaging game designed to simulate a side-channel attack inspired by a vulnerability discovered in Apple's M1 and M2 chips. By analyzing the response time between requests, it is possible to determine various parameters. This game attempts to replicate that behavior, challenging players to guess a randomly generated password based on timing information alone.
 

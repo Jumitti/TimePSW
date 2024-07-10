@@ -38,6 +38,10 @@ st.set_page_config(page_title="TimePSW", page_icon="🔐", layout="wide")
 
 cola, colb = st.columns([1, 1], gap="small")
 cola.title("TimePSW 🔐")
+colb.write("TimePSW is an engaging game designed to simulate a side-channel attack inspired by a vulnerability "
+           "discovered in Apple's M1 and M2 chips. By analyzing the response time between requests, it is possible "
+           "to determine various parameters. This game attempts to replicate that behavior, challenging players "
+           "to guess a randomly generated password based on timing information alone.")
 colb.link_button("Made w/ ❤️ | GitHub", "https://github.com/Jumitti")
 cola.write("**Rules 🗒️**")
 cola.write(
